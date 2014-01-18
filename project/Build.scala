@@ -12,7 +12,7 @@ object BuildSettings {
   val buildSettings = Defaults.defaultSettings ++ Seq(
     version := buildVersion,
     scalaVersion := buildScalaVersion,
-    libraryDependencies ++= Seq(Dependencies.akka, Dependencies.scalaTest),
+    libraryDependencies ++= Seq(Dependencies.akka, Dependencies.akkaTest, Dependencies.scalaTest),
     resolvers ++= ImgLib2.resolvers
   )
 
@@ -24,6 +24,7 @@ object Resolvers {
 
 object Dependencies {
   val akka = "com.typesafe.akka" %% "akka-actor" % "2.2.3"
+  val akkaTest = "com.typesafe.akka" %% "akka-testkit" % "2.2.3"
   val typesafeConsole = "com.typesafe.atmos" % "trace-play-2.2.0" % "1.3.1"
   val typesafeConfig = "com.typesafe" % "config" % "1.0.2"
   val scalaTest = "org.scalatest" % "scalatest_2.10" % "2.0" % "test"
