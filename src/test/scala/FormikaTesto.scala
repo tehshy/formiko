@@ -1,4 +1,4 @@
-package pl.krakovanoj.formiko.testo
+package pl.pej.formiko.testo
 
 import akka.testkit.TestActorRef
 import org.scalatest.FlatSpec

@@ -1,4 +1,4 @@
-package pl.krakovanoj.formiko.grafeo.meta
+package pl.pej.formiko.grafeo.meta
 
 /** Strukturoj priskribantaj grafeojn.
   */

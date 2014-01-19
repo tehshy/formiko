@@ -1,4 +1,4 @@
-package pl.krakovanoj.formiko
+package pl.pej.formiko
 
 import akka.actor.Actor
 
